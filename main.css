@@ -1,0 +1,262 @@
+.head{
+  background: #FFFDD0;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bi-person-circle{
+    font-size: larger;
+}
+
+.manubar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul li {
+    list-style-type: none;
+
+}
+
+li a {
+    text-decoration: none;
+    color:  rgb(79, 79, 79) ;
+}
+
+.log {
+    padding-top: 40px;
+
+}
+
+.search-bar input {
+    margin-top: 40px;
+    width: 400px;
+
+}
+
+.bi-cart3 {
+    color: #FFFFED;
+    font-size: xx-large;
+    margin-right: 100px;
+}
+
+.log-button {
+    text-decoration: none;
+}
+
+.items1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.soap {
+    width: 250px;
+    text-align: center;
+    transition: all 1s;
+}
+
+.soap:hover {
+    height: auto;
+    background-color: lavender;
+}
+
+.Hairoil {
+    width: 250px;
+    text-align: center;
+
+    transition: all 1s;
+}
+
+.Hairoil:hover {
+    height: auto;
+    background-color: lavender;
+}
+
+.lip {
+    width: 250px;
+    text-align: center;
+    transition: all 1s;
+}
+
+.lip:hover {
+    height: auto;
+    background-color: rgb(199, 199, 254);
+}
+
+.serum {
+    width: 250px;
+    text-align: center;
+    transition: all 1s;
+}
+
+.serum:hover {
+    height: auto;
+    background-color: rgb(200, 200, 245);
+}
+
+.bi-truck {
+    font-size: xx-large;
+    color: #FFFFED;
+}
+
+.Bot {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.ship {
+    text-align: center;
+}
+
+.bi-wallet2,
+.bi-credit-card {
+    font-size: xx-large;
+}
+
+.Foot {
+    text-align: center;
+
+
+}
+
+ul li {
+    display: inline;
+
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 2px;
+}
+
+.you {
+    display: flex;
+    margin-top: 50px;
+    background-image: url(./banner3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+
+.sym {
+    display: flex;
+}
+
+.footer {
+    background-color:#D3D3D3;
+    color: #FFFFED;
+    width: auto;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.order {
+    position: fixed;
+    right: 50px;
+    background: fixed;
+    background-color: beige;
+}
+
+.body {
+    color: rgb(79, 79, 79);
+    background-color: rgb(252, 252, 251);
+    background-image: url(./pexels-eberhardgross-691668.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.page {
+    width: 25%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgba(232, 229, 229, 0.4);
+}
+
+.card {
+
+    width: 25%;
+    margin-top:40px ;
+    text-align: center;
+    margin: auto;
+    margin-bottom:40p ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: linear-gradient(360deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 0.14) 100%);
+
+}
+
+.sign {
+    color: rgb(250, 248, 248);
+    background-image: url(./map-of-the-world-2401458_1920.jpg);
+    background-size: 100% 100%;
+
+
+}
+
+@media(max-width:320px) {
+
+    .nav,
+    .manubar,
+    .items1,
+    .you, 
+    .sym{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    body p,
+    div,
+    b{
+        font-size: small;
+    }
+}
+@media(min-width:321px) and (max-width:768px){
+     .nav,
+    .manubar,
+    .items1,
+    .you, 
+    .sym{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    body p,
+    body div,
+    body b{
+        font-size:medium;
+    }
+}
+@media(min-width:769px){
+         .nav,
+    .manubar,
+    .items1,
+    .you, 
+    .sym{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+   
+
+}
+body {
+    font-family: 'Trebuchet MS',  sans-serif;
+}
